@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Javier Castillo
+description: Dockeando es una recopilación los mejores proyectos que tengo en mi red local en Docker.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
-
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Mi GitHub": "https://github.com/javiercast0"
+
+favicon_ico: "/assets/images/favicon.ico"
+search_enabled: false
+aux_links_new_tab: true
+color_scheme: light
