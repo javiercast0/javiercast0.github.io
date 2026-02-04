@@ -55,7 +55,7 @@ nav_exclude: true
 ### 🐳 [Dockeando](https://javiercast0.github.io/docker.html)
 Documentation of my local network Docker setup. Container management using `docker-compose` and `Dockerfile` with volume persistence.
 
-### 🐍 [Planning Dia](https://github.com/javiercast0/plannings-dia)
+### 🐍 [Planning Dia](https://github.com/javiercast0/planning-dia)
 Automation for workflow optimization. Data extraction and automatic backups to reduce human error.
 
 ---

@@ -56,7 +56,7 @@ nav_order: 1
 ### 🐳 [Dockeando](https://javiercast0.github.io/docker.html)
 Documentación de como uso Docker en mi red local. Gestión de contenedores mediante `docker-compose` y `Dockerfile` con persistencia de volúmenes.
 
-### 🐍 [Planning Dia](https://github.com/javiercast0/plannings-dia)
+### 🐍 [Planning Dia](https://github.com/javiercast0/planning-dia)
 Automatización para la optimización de flujos de trabajo. Extracción de datos y backups automáticos para reducir errores humanos.
 
 ---
