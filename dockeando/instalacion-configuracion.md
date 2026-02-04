@@ -10,7 +10,6 @@ nav_order: 1
 </div>
 
 ## 💻 Windows y macOS (Docker Desktop)
-
 Para entornos Windows y Mac, la opción recomendada es **Docker Desktop**. Este paquete incluye el motor de Docker, el cliente CLI, Docker Compose y una interfaz gráfica para gestionar tus recursos.
 
 ### Instalación:
@@ -62,13 +61,15 @@ sudo apt-get install docker-compose-plugin
 
 ### Docker-Compose
 Ahora escogeremos una carpeta donde estaran todos nuestros proyectos de Docker, la mia por ejemplo se llama docker y dentro cada proyecto tendrá su propia carpeta.
-En la raiz de esta carpeta crearemos un archivo llamado docker-compose.yml y escribimos lo siguiente:
-
+En la raiz de esta carpeta crearemos un archivo llamado **docker-compose.yml** y escribimos lo siguiente:
+```bash
 version: "3.8"
 services:
+```
 
 ### Comandos esenciales
 La documentación de docker es increible y os recomiendo mirarla para poder gestionar vuestros contenedores, aquí os dejo los dos que más usaremos:
+
 #### Levantar los servicios (contenedores)
 ```bash
 docker-compose up -d
