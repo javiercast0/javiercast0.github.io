@@ -9,9 +9,9 @@ nav_order: 2
   <a href="./dockeando_en/tailscale_en"><strong>English</strong></a>
 </div>
 
-## ¿Qué es Tailscale? 🛜
+## ¿Qué es Tailscale? 
 
-Tailscale nos permite, entre otras cosas, crear un tunel VPN entre nuestros dispositivos, me encanta porque como solución local es fascinante ya que no tenemos porque lidiar con nuestra operadora para que nos saque de la CG-NAT y funciona realmente bien, es la puerta de entrada que nos permitirá conectar nuestro servidor con nuestros dispostivios cuando estemos en el exterior. 
+Tailscale nos permite, entre otras cosas, crear un tunel VPN entre nuestros dispositivos, me encanta porque como solución local es fascinante ya que no tenemos porque lidiar con nuestra operadora para que nos saque de la CG-NAT y funciona realmente bien, es la puerta de entrada que nos permitirá conectar nuestro servidor con nuestros dispostivos cuando estemos en el exterior. 
 Es de esos servicios que cuesta creer que su plan gratuito sea  tan bueno (y esperemos que así siga), gracias a esto podremos acceder a nuestras carpetas compartidas por Samba, usar RustDesk para controlar de forma remota nuestros dispositivios sin depender de otras empresas intermediarias, o ver nuestros videos o fotos por Jellyfin...
 
 No voy a entrar en detalle sobre como configurarlo o instalarlo en clientes, es muy sencillo y solo se necesita acceder por la cuenta de Google, este proceso es el que pondremos en nuestro servidor o dispositivo que tendremos conectado 24/7.
@@ -44,3 +44,5 @@ Se pueden hacer un montón más de cosas como crear subnets, yo tengo una en mi 
 
 ### Como se usa
 En los clientes instalamos Tailscale, y accedemos con la misma cuenta, ya estaría, super sencillo, cuando estemos fuera de casa escogeremos la IP que Tailscale le da a nuestro servidor y todos nuestros servicios deberían de funcionar de la misma forma.
+
+Por ejemplo, yo tengo una carpeta compartida mediante el protocolo SMB, para acceder a ella uso la IP de Tailscale y accedo con el nombre y contraseña creados en Samba.

@@ -8,7 +8,7 @@ nav_exclude: true
   <a href="../tailscale"><strong>Español</strong></a>
 </div>
 
-## What is Tailscale? 🛜
+## What is Tailscale? 
 
 Tailscale lets us, among other things, create a VPN tunnel between our devices. I love it because, as a local solution, it’s amazing—you don’t have to deal with your ISP to get out of CG-NAT and it works really well. It’s basically the gateway that lets us connect our server to our devices when we're away from home.
 
@@ -43,3 +43,5 @@ You can do a ton of other things like creating subnets (I have one for my local 
 
 ### How to use it
 Just install Tailscale on your clients and log in with the same account. That’s it, super easy. When you’re out of the house, just use the IP that Tailscale gives your server and all your services should work exactly the same.
+
+For example, I have a shared folder via the SMB protocol; to access it, I use the Tailscale IP along with the username and password created in Samba.
